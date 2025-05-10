@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo p{
+    color: wheat;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.logo span{
+    color: aqua;
+    border-left: 10px solid wheat;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.banner{
+background: url("./the_possession.jpeg");    
+background-repeat: no-repeat;
+background-size: cover;    
+margin-top: 2rem;
+height: 50vh;
+background-position: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+.moviess{    
+    font-size: 50px;
+    color: wheat;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+    .input-type{
+        padding: 9px 38px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .seach-btn{
+        padding: 9px 20px;
+        border: none;
+        cursor: pointer;
+        background-color: gray;
+        color: aqua;
+        font-weight: bold;
+        border-radius: 10px;
+}
+
+.overall-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
